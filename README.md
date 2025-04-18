@@ -1,4 +1,4 @@
-# tfkan
+# tfkan_updated
 Here is a tensorflow implementation of `KAN` ([Kolmogorov-Arnold Networks (KANs)](https://github.com/KindXiaoming/pykan))
 
 ## How to use
