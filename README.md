@@ -5,19 +5,19 @@ Here is a tensorflow implementation of `KAN` ([Kolmogorov-Arnold Networks (KANs)
 
 Install from PyPI directly:
 ```bash
-pip install tfkan
+pip install tfkan_updated
 ```
 
 or clone the repository and run in the terminal:
 ```bash
-cd tfkan && pip install .
+cd tfkan_updated && pip install .
 ```
 
 then you can use `tfkan` packages: 
 
 ```python
-from tfkan import layers
-from tfkan.layers import DenseKAN, Conv2DKAN
+from tfkan_updated import layers
+from tfkan_updated.layers import DenseKAN, Conv2DKAN
 ```
 
 ## Features
@@ -25,7 +25,7 @@ from tfkan.layers import DenseKAN, Conv2DKAN
 The modules in `layers` are similar to those in `tf.keras.layers`, so you can use these layers as independent modules to assemble the model (in a `TensorFlow` style)
 
 ```python
-from tfkan.layers import DenseKAN
+from tfkan_updated.layers import DenseKAN
 # create model using KAN
 model = tf.keras.models.Sequential([
     DenseKAN(4),
