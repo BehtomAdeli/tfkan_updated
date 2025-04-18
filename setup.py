@@ -9,7 +9,7 @@ with open("requirements.txt", "r", encoding="utf8") as fh:
     requirements = fh.read().splitlines()
 
 setuptools.setup(
-    name="tfkan_updated",
+    name="tfkan-updated",
     version="0.1.2",
     packages=setuptools.find_packages(),
     install_requires=requirements,
